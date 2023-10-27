@@ -3,7 +3,7 @@ title: 'Mac(M1)でOracleDBコンテナをビルドする'
 emoji: '🐕'
 type: 'tech'
 topics: ['oracle', 'docker', 'container', 'mac', 'm1']
-published: false
+published: true
 ---
 
 # はじめに
