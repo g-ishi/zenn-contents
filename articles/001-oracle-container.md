@@ -1,5 +1,5 @@
 ---
-title: 'Mac(M1)でOracleDBコンテナをビルドする'
+title: 'Mac(M1)でOracleDBコンテナ(Oracle Database 19c Enterprise Edition)をビルドする'
 emoji: '🐕'
 type: 'tech'
 topics: ['oracle', 'docker', 'container', 'mac', 'm1']
@@ -10,7 +10,7 @@ published: true
 
 ## 概要
 
-本記事では Mac(M1)で Oracle のデータベースコンテナをビルドして、起動する方法を記載します。
+本記事では Mac(M1)で OracleDB コンテナ(Oracle Database 19c Enterprise Edition)をビルドして起動する方法を記載します。
 
 ## 背景
 
