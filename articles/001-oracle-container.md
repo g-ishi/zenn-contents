@@ -40,7 +40,7 @@ Oracle のデータベースをコンテナで動かす機会があり、試行�
 任意のディレクトリに[こちらのリポジトリ](https://github.com/oracle/docker-images/tree/main)をクローンします。
 
 ```sh
-$ git clone https://github.com/oracle/docker-images.git
+git clone https://github.com/oracle/docker-images.git
 ```
 
 2. 対象のディレクトリに移動
@@ -48,7 +48,7 @@ $ git clone https://github.com/oracle/docker-images.git
 今回は SingleInstance の OracleDB イメージをビルドします。
 
 ```sh
-$ cd docker-images/OracleDatabase/SingleInstance/dockerfiles
+cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 ```
 
 3. `Oracle Database 19c Enterprise Edition`のバイナリーをダウンロード
@@ -68,11 +68,11 @@ $ cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 あらかじめ用意されているビルド用のスクリプトを使用してビルドを行います。
 
 ```sh
-$ pwd
+pwd
 <任意のディレクトリ>/docker-images/OracleDatabase/SingleInstance/dockerfiles
 
 # イメージのビルド
-$ ./buildContainerImage.sh -v 19.3.0 -t oracle-db:19.3.0 -e
+./buildContainerImage.sh -v 19.3.0 -t oracle-db:19.3.0 -e
 ```
 
 -t はイメージタグ、-v はバージョン、-e は`Enterprise Edition`を表しています。
