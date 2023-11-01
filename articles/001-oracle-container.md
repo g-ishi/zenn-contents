@@ -72,10 +72,10 @@ $ pwd
 <任意のディレクトリ>/docker-images/OracleDatabase/SingleInstance/dockerfiles
 
 # イメージのビルド
-$ ./buildContainerImage.sh -v 19.3.0 -t oracle-db:19.3.0 -x
+$ ./buildContainerImage.sh -v 19.3.0 -t oracle-db:19.3.0 -e
 ```
 
--t はイメージタグ、-v はバージョン、-x は`Enterprise Edition`を表しています。
+-t はイメージタグ、-v はバージョン、-e は`Enterprise Edition`を表しています。
 
 他のオプションやより詳しい説明は、`./buildContainerImage.sh -h`で確認できます。
 
