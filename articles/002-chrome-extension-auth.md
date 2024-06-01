@@ -48,5 +48,6 @@ Chrome 拡張機能 をクライアント、Hasura をバックエンドとし�
 ## Hasura / Firebase の連携設定
 
 1. [Hasura Authentication Integration with Firebase](https://hasura.io/learn/graphql/hasura-authentication/integrations/firebase/#jwtconfiginhasura)の「JWT Config in Hasura」セクションを実施
+   1. 必要に応じて JWT のカスタムクレームを設定するのを忘れないようにしてください。
 
 以上で設定は完了です。
