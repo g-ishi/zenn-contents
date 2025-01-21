@@ -1,6 +1,6 @@
 ---
-title: ''
-emoji: '🌊'
+title: 'Next.js / Supabase / Google(One-tap) での Social Login の実装方法＆処理フローの整理'
+emoji: '🍊'
 type: 'tech' # tech: 技術記事 / idea: アイデア
 topics: [Next.js, Supabase, SocialLogin, Google]
 published: false
