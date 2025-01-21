@@ -1,0 +1,107 @@
+# next.js / supabase / google one-tap
+
+1. google cloud プロジェクトで OAuth クライアントを作成
+   https://supabase.com/docs/guides/auth/social-login/auth-google#google-pre-built
+
+   ローカル環境で動作確認するときは、localhost:3000 も入れておく。
+
+   clientId を supabase に保存
+
+   https://supabase.com/docs/guides/auth/social-login/auth-google#google-pre-built-configuration
+
+2. Next.js で Google Sign-In と Supabase を統合する場合、以下のように実装できます：
+
+```tsx
+'use client';
+
+import { createClient } from '@/utils/supabase/client';
+import Script from 'next/script';
+import { useRouter } from 'next/navigation';
+import { useCallback } from 'react';
+
+const GoogleSignIn = () => {
+  const router = useRouter();
+  const supabase = createClient();
+
+  // handleCallbackをuseCallbackで定義
+  const handleCredentialResponse = useCallback(
+    async (response: any) => {
+      try {
+        const { data, error } = await supabase.auth.signInWithIdToken({
+          provider: 'google',
+          token: response.credential,
+        });
+
+        if (error) throw error;
+
+        console.log('Logged in:', data);
+        router.refresh();
+        router.push('/dashboard'); // ログイン後のリダイレクト先
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    },
+    [router]
+  );
+
+  // グローバルに関数を登録
+  useEffect(() => {
+    // @ts-ignore
+    window.handleCredentialResponse = handleCredentialResponse;
+  }, [handleCredentialResponse]);
+
+  return (
+    <>
+      <Script
+        src='https://accounts.google.com/gsi/client'
+        strategy='afterInteractive'
+        onLoad={() => {
+          google.accounts.id.initialize({
+            client_id: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID!,
+            callback: handleCredentialResponse,
+          });
+          google.accounts.id.renderButton(
+            document.getElementById('signInDiv')!,
+            { theme: 'outline', size: 'large' }
+          );
+        }}
+      />
+      {/* Google Sign-Inボタンのコンテナ */}
+      <div id='signInDiv'></div>
+    </>
+  );
+};
+
+export default GoogleSignIn;
+```
+
+重要なポイント：
+
+1. `'use client'`ディレクティブが必要
+2. コールバック関数を`useCallback`でメモ化
+3. `Script`コンポーネントの`strategy`を適切に設定
+4. 環境変数の設定が必要（`NEXT_PUBLIC_GOOGLE_CLIENT_ID`）
+5. グローバルスコープに関数を登録
+
+環境変数の設定：
+
+```env
+# .env.local
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=your-client-id.apps.googleusercontent.com
+```
+
+このコンポーネントは、ログインページなどで以下のように使用できます：
+
+```tsx
+// app/login/page.tsx
+import GoogleSignIn from '@/components/GoogleSignIn';
+
+export default function LoginPage() {
+  return (
+    <div>
+      <h1>Login</h1>
+      <GoogleSignIn />
+    </div>
+  );
+}
+```
