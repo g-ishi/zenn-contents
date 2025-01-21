@@ -130,7 +130,7 @@ export default function LoginPage() {
 
 理解間違っている間違っている点は、ご指摘いただけるとありがたいです。
 
-![シーケンス図](../images/004-nextjs-supabase-google-social-login/supabase-one-tap-auth-シーケンス図.webp)
+![シーケンス図](https://storage.googleapis.com/zenn-user-upload/205e7ce08a3a-20250121.webp)
 
 ### ポイント
 
