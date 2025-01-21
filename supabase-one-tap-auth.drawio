@@ -1,14 +1,285 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6" pages="2">
   <diagram name="ページ1" id="JOzuDuU-51WGF0VIIypb">
-    <mxGraphModel dx="1085" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1266" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="enDtEHfztznSI730Mm1V-1" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome" vertex="1" parent="1">
-          <mxGeometry x="240" y="660" width="48" height="48" as="geometry" />
+        <mxCell id="JB5-63pJOudbf_32jx29-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="enDtEHfztznSI730Mm1V-2" target="JB5-63pJOudbf_32jx29-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="enDtEHfztznSI730Mm1V-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/next-js.svg;" vertex="1" parent="1">
+        <mxCell id="enDtEHfztznSI730Mm1V-2" value="Next.js&#xa;アプリ" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/next-js.svg;" parent="1" vertex="1">
           <mxGeometry x="240" y="470" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-3" value="Supabase" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://media.licdn.com/dms/image/v2/D4E0BAQERGTXCf4yK8A/company-logo_200_200/company-logo_200_200/0/1692094901296/supabase_logo?e=2147483647&amp;v=beta&amp;t=2P19Am6Q8r8Ghtf5o6Z8U8Qe-bhHAFD5KJLM-ObMSCc;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JB5-63pJOudbf_32jx29-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="240" y="800" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-8" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;①Loginボタンを押下&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JB5-63pJOudbf_32jx29-13" target="JB5-63pJOudbf_32jx29-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="654" />
+              <mxPoint x="200" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-18" value="②認証リクエスト" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JB5-63pJOudbf_32jx29-17">
+          <mxGeometry x="0.0957" y="1" relative="1" as="geometry">
+            <mxPoint y="165" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-13" value="ブラウザ" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Browser.svg;" vertex="1" parent="1">
+          <mxGeometry x="234" y="630" width="60" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-14" value="Google&lt;div&gt;Idp&lt;/div&gt;" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.authentication_google;" vertex="1" parent="1">
+          <mxGeometry x="238" y="240" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-15" value="supabase&lt;div&gt;client-side client&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JB5-63pJOudbf_32jx29-14" target="JB5-63pJOudbf_32jx29-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="250" />
+              <mxPoint x="140" y="672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-21" value="③認証ポップアップ&lt;div&gt;の表示&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JB5-63pJOudbf_32jx29-20">
+          <mxGeometry x="-0.1628" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JB5-63pJOudbf_32jx29-22" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;④認証情報の入力&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1ywd8riE9vNVqqRwY968" name="シーケンス図">
+    <mxGraphModel dx="3457" dy="1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VL2sAlDk3kYm0LWlG_W7-1" value="Next.js(Server)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="100" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VL2sAlDk3kYm0LWlG_W7-1">
+          <mxGeometry x="45" y="750" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="VL2sAlDk3kYm0LWlG_W7-2" value="Supabase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="100" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VL2sAlDk3kYm0LWlG_W7-2">
+          <mxGeometry x="45" y="415" width="10" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VL2sAlDk3kYm0LWlG_W7-2">
+          <mxGeometry x="45" y="780" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VL2sAlDk3kYm0LWlG_W7-3" value="Google(Idp)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="630" y="170" width="100" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VL2sAlDk3kYm0LWlG_W7-3">
+          <mxGeometry x="46" y="84" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VL2sAlDk3kYm0LWlG_W7-3">
+          <mxGeometry x="46" y="260" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-15" value="ユーザ認証" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="tgcabSKQG3ahkNJb_Va7-14" parent="VL2sAlDk3kYm0LWlG_W7-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="81" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VL2sAlDk3kYm0LWlG_W7-3">
+          <mxGeometry x="46" y="881" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VL2sAlDk3kYm0LWlG_W7-4" value="Next.js(Client)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="100" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-4" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-20" y="170" width="100" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-6" value="認証リクエスト" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="tgcabSKQG3ahkNJb_Va7-5" parent="1" source="tgcabSKQG3ahkNJb_Va7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606" y="234" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-7" value="認証ポップアップの表示" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="tgcabSKQG3ahkNJb_Va7-5" parent="1" target="tgcabSKQG3ahkNJb_Va7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-11" value="Browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="100" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-12" value="ログインボタン押下" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="tgcabSKQG3ahkNJb_Va7-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="29.32352941176464" y="240" as="sourcePoint" />
+            <mxPoint x="130" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-9" value="認証情報の送信" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="tgcabSKQG3ahkNJb_Va7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290.5" y="365" as="sourcePoint" />
+            <mxPoint x="676" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-13" value="認証情報の入力" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="30.00352941176464" y="370" as="sourcePoint" />
+            <mxPoint x="160.68" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-16" value="コールバックURLにリダイレクト&lt;div&gt;(アクセストークン/リフレッシュトークン/IDトークンの送信)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="tgcabSKQG3ahkNJb_Va7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="500" as="sourcePoint" />
+            <mxPoint x="600" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-18" value="コールバック関数の&lt;div&gt;呼び出し&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="VL2sAlDk3kYm0LWlG_W7-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="160" y="560" as="sourcePoint" />
+            <mxPoint x="240" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-20" value="アクセストークン/リフレッシュトークン/&lt;div&gt;IDトークン&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;の送信&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="tgcabSKQG3ahkNJb_Va7-19" parent="1" source="VL2sAlDk3kYm0LWlG_W7-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-24" value="JTWの&lt;div&gt;署名検証(Googleが署名)&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="612.1176470588234" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="585" y="642.1176470588234" />
+            </Array>
+            <mxPoint x="560" y="642.1176470588234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-27" value="IDトークン&lt;div&gt;の検証&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="662.1176470588234" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="585" y="692.1176470588234" />
+            </Array>
+            <mxPoint x="560" y="692.1176470588234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-30" value="ログインセッション&lt;div&gt;の発行&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0026" relative="1" as="geometry">
+            <mxPoint x="556" y="714" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="586" y="744" />
+            </Array>
+            <mxPoint x="561" y="744" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-32" value="アクセストークン/リフレッシュトークン&lt;div&gt;をJTWで格納(Supabaseが署名)&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0026" relative="1" as="geometry">
+            <mxPoint x="555" y="765" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="585" y="795" />
+            </Array>
+            <mxPoint x="560" y="795" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-21" value="Cookieにアクセストークン/リフレッシュトークンを格納" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="tgcabSKQG3ahkNJb_Va7-19" parent="1" target="tgcabSKQG3ahkNJb_Va7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-33" value="ログイン前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-50" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-34" value="マイページ表示&lt;div&gt;リクエスト&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0018" width="80" relative="1" as="geometry">
+            <mxPoint x="30.00352941176464" y="900" as="sourcePoint" />
+            <mxPoint x="160.68" y="900" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-35" value="ログイン後" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-50" y="870" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-37" value="マイページデータ&lt;div&gt;リクエスト&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="tgcabSKQG3ahkNJb_Va7-36" parent="1" source="tgcabSKQG3ahkNJb_Va7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="925" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-40" value="マイページデータ&lt;div&gt;リクエスト&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="tgcabSKQG3ahkNJb_Va7-39" parent="1" source="tgcabSKQG3ahkNJb_Va7-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="955" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-42" value="アクセストークンの検証&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Supabaseが署名)&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0026" relative="1" as="geometry">
+            <mxPoint x="556" y="971" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="586" y="1001" />
+            </Array>
+            <mxPoint x="561" y="1001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-44" value="アクセストークン&lt;div&gt;の更新&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="tgcabSKQG3ahkNJb_Va7-43" parent="1" source="tgcabSKQG3ahkNJb_Va7-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606" y="1035" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-45" value="アクセストークン/&lt;div&gt;リフレッシュトークン&lt;br&gt;&lt;div&gt;の送信&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="tgcabSKQG3ahkNJb_Va7-43" parent="1" target="tgcabSKQG3ahkNJb_Va7-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="1126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-46" value="アクセストークン/リフレッシュトークン&lt;div&gt;をJTWで格納(Supabaseが署名)&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0026" relative="1" as="geometry">
+            <mxPoint x="556" y="1158" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="586" y="1188" />
+            </Array>
+            <mxPoint x="561" y="1188" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-47" value="リクエストデータの取得&lt;div&gt;(DBなどから)&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0026" relative="1" as="geometry">
+            <mxPoint x="556" y="1207" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="586" y="1237" />
+            </Array>
+            <mxPoint x="561" y="1237" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-41" value="リクエストデータの&lt;div&gt;レスポンス&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;更新したJWT&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="tgcabSKQG3ahkNJb_Va7-39" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-38" value="マイページデータのレスポンス&lt;div&gt;Cookieの更新&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="tgcabSKQG3ahkNJb_Va7-36" parent="1" target="tgcabSKQG3ahkNJb_Va7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgcabSKQG3ahkNJb_Va7-49" value="マイページ表示" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="tgcabSKQG3ahkNJb_Va7-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1280" as="sourcePoint" />
+            <mxPoint x="80" y="1280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
